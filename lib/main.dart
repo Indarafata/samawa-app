@@ -20,9 +20,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return  GetMaterialApp(
+    return GetMaterialApp(
       home: Scaffold(
-        body: SplashScreen(),
+        // body: SplashScreen(),
+        body: LoginPage(),
       ),
     );
   }

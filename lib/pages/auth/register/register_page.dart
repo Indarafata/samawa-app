@@ -128,13 +128,14 @@ class _RegisterPageState extends State<RegisterPage> {
                                     icon: Icons.lock,
                                     controller: retypePasswordController,
                                   ),
-                                  RoundedButton(
-                                    text: "Lanjutkan",
-                                    color: sPrimaryColor,
-                                    press: () {
-                                      Get.to(FormPassword());
-                                    },
-                                  ),
+                                  // RoundedButton(
+                                  //   text: "Lanjutkan",
+                                  //   color: sPrimaryColor,
+                                  //   press: () {
+                                  //     Get.to(FormPassword());
+                                  //   },
+                                  // ),
+                                  registerButton(),
                                   RoundedButton(
                                     logo: "assets/logos/google.png",
                                     text: "Register With Google",
